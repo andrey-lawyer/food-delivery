@@ -1,29 +1,3 @@
-# React homework template
-
-Este proyecto fue creado con la ayuda de
-[Create React App](https://github.com/facebook/create-react-app).
-[Consulte la documentación](https://facebook.github.io/create-react-app/docs/getting-started)
-para familiarizarse con las funciones opcionales y configurarlas.
-
-## Crear un repositorio desde una plantilla
-
-Usa este repositorio de la organización GoIT como plantilla para crear el repositorio de tu proyecto. 
-Para hacer esto, haz clic en `«Use this template»` y selecciona la opción
-`«Create a new repository»`, tal como se muestra en la imagen.
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-Para el siguiente paso deberás abrir la página para crear un nuevo repositorio. 
-Ponle nombre, asegúrate de que el repositorio sea público y haz clic en el botón
-`«Create repository from template»`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-Ahora ya tienes un repositorio de proyecto personal, junto a una estructura de 
-archivos y carpetas del repositorio de plantillas. Luego trabaja con esto, así 
-como con cualquier otro repositorio personal, realiza una copia en tu computadora 
-y súbelo a GitHub.
-
 ## Prepararse para el trabajo
 
 1. Asegúrate de que la versión LTS de Node.js está instalada en tu computador.
@@ -78,28 +52,3 @@ Si se abre una página en blanco, asegúrate de que no haya errores en la pesta�
 `Console` relacionados con rutas incorrectas de archivos CSS y JS del proyecto
 (**404**). Probablemente tienes un valor incorrecto para la propiedad `homepage`
 en el archivo `package.json`.
-
-### Enrutamiento
-
-Si la aplicación utiliza la librería `react-router-dom` para el enrutamiento, el
-componente `<BrowserRouter>` debe ser configurado adicionalmente pasando en la
-prop `basename`, el nombre exacto de tu repositorio. Las barras inclinadas al
-principio y al final de la cadena son obligatorias.
-
-```jsx
-<BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>
-```
-
-## ¿Cómo funciona?
-
-![How it works](./assets/how-it-works.png)
-
-1. Después de cada push a la rama `main` del repositorio GitHub, se ejecuta un
-   script especial (GitHub Action) del archivo `.github/workflows/deploy.yml`.
-2. Todos los archivos del repositorio se copian en el servidor, donde el
-   proyecto se inicializa, se verifica y se compila antes de ser implementado.
-3. Si todos los pasos tienen éxito, la versión de producción compilada de los
-   archivos del proyecto se envía a la rama `gh-pages`. De lo contrario, el
-   registro de ejecución del script indicará cuál es el problema.

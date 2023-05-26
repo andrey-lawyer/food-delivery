@@ -1,39 +1,5 @@
 **Read in other languages: [rosyjski](README.md), [polski](README.pl.md).**
 
-# React homework template
-
-Ten projekt został stworzony przy pomocy
-[Create React App](https://github.com/facebook/create-react-app). W celu
-zapoznania się z konfiguracją dodatkowych opcji
-[zobacz dokumentację](https://facebook.github.io/create-react-app/docs/getting-started).
-
-## Utworzenie repozytorium zgodnie z szablonem
-
-Wykorzystaj to repozytorium organizacji GoIT jako szablon do utworzenia
-repozytorium własnego projektu. W tym celu kliknij na przycisk
-`"Use this template"` i wybierz opcję `"Create a new repository"`, jak pokazano
-na rysunku.
-
-![Creating repo from a template step 1](./assets/template-step-1.png)
-
-W następnym kroku otworzy się strona utworzenia nowego repozytorium. Wypełnij
-pole nazwy i upewnij się, że repozytorium jest publiczne, a następnie kliknij na
-przycisk `"Create repository from template"`.
-
-![Creating repo from a template step 2](./assets/template-step-2.png)
-
-Po utworzeniu repozytorium, należy przejść do jego ustawień w zakładce `Settings` > `Actions` > `General`, jak pokazano na rysunku.
-
-![Settings GitHub Actions permissions step 1](./assets/gh-actions-perm-1.png)
-
-Przescrolluj stronę do samego końca, w sekcji `«Workflow permissions»` wybierz opcję `«Read and write permissions»` i zaznacz pole w checkboksie. Jest to niezbędne do automatyzacji procesu deploymentu projektu.
-
-![Settings GitHub Actions permissions step 2](./assets/gh-actions-perm-2.png)
-
-Teraz masz własne repozytorium projektu, ze strukturą folderów i plików jak w
-szablonie. Pracuj z nim jak z innymi repozytoriami, klonuj je na swój komputer,
-pisz kod, rób commity i wysyłaj na GitHub.
-
 ## Przygotowanie do pracy
 
 1. Upewnij się, że na komputerze zainstalowana jest wersja LTS Node.js.
@@ -91,27 +57,4 @@ błędów związanych z nieprawidłowymi ścieżkami do plików CSS i JS projekt
 (**404**). Najprawdopodobniej wprowadzona została niewłaściwa wartość
 właściwości `homepage` w pliku `package.json`.
 
-### Trasowanie
 
-Jeżeli aplikacja wykorzystuje bibliotekę `react-router-dom` dla trasowania,
-należy uzupełniająco skonfigurować komponent `<BrowserRouter>`, przekazując w
-propsie `basename` dokładną nazwę twojego repozytorium. Slash na początku i na
-końcu łańcucha jest obowiązkowy.
-
-```jsx
-<BrowserRouter basename="/your_repo_name/">
-  <App />
-</BrowserRouter>
-```
-
-## Jak to działa
-
-![How it works](./assets/how-it-works.png)
-
-1. Po każdym pushu do gałęzi `main` repozytorium GitHub, uruchamia się specjalny
-   skrypt (GitHub Action) z pliku `.github/workflows/deploy.yml`.
-2. Wszystkie pliki repozytorium kopiują się na serwer, gdzie projekt zostaje
-   zainicjowany i przechodzi pracę lintera oraz zbudowanie przed deploymentem.
-3. Jeżeli wszystkie kroki zakończyły się sukcesem, zbudowana wersja produkcyjna
-   plików projektu wysyłana jest do gałęzi `gh-pages`. W przeciwnym razie, w
-   logu wykonania skryptu zostanie wskazane z czym jest problem.

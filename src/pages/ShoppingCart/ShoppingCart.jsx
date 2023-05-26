@@ -32,7 +32,7 @@ const ShoppingCart = () => {
         {localCart.length > 0 ? (
           <>
             <Heading as="h1" size="lg" textAlign={'center'} noOfLines={1}>
-              Shop to order: {localCart[1].nameShop}
+              Shop to order: {localCart[1]?.nameShop}
             </Heading>
             <Formik
               initialValues={{
