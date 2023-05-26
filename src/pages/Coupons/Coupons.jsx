@@ -1,7 +1,7 @@
 const Coupons = () => {
   return (
     <>
-      <p>This is page Coupons</p>
+      <p>Page under construction...</p>
     </>
   );
 };
