@@ -7,7 +7,6 @@ import {
   InputRightElement,
   Text,
 } from '@chakra-ui/react';
-import Notiflix from 'notiflix';
 
 import { MyThreeDots } from 'components/Loaders/MyThreeDots';
 
