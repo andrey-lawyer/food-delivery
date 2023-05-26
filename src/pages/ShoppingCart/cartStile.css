@@ -1,0 +1,5 @@
+.error {
+  position: absolute;
+  color: red;
+  opacity: 0.5;
+}
