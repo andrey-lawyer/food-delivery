@@ -1,3 +1,12 @@
+# Link to page (deploy) and api
+
+1. Page (deploy)
+   [https://andrey-lawyer.github.io/food-delivery/](https://andrey-lawyer.github.io/food-delivery/)
+2. Api
+   [https://fastfood-orders.onrender.com/api/](https://fastfood-orders.onrender.com/api/)
+3. Project files (backend)
+   [https://github.com/andrey-lawyer/food-delivery-server](https://andrey-lawyer.github.io/food-delivery/)
+
 ## Preparing for coding
 
 1. Make sure you have an LTS version of Node.js installed on your computer.
@@ -23,31 +32,3 @@ changes to GitHub.
 Next, you need to go to the settings of the GitHub repository (`Settings` >
 `Pages`) and set the distribution of the production version of files from the
 `/root` folder of the `gh-pages` branch, if this was not done automatically.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Deployment status
-
-The deployment status of the latest commit is displayed with an icon next to its
-ID.
-
-- **Yellow color** - the project is being built and deployed.
-- **Green color** - deployment completed successfully.
-- **Red color** - an error occurred during linting, build or deployment.
-
-More detailed information about the status can be viewed by clicking on the
-icon, and in the drop-down window, follow the link `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-### Live page
-
-After some time, usually a couple of minutes, the live page can be viewed at the
-address specified in the edited `homepage` property. For example, here is a link
-to a live version for this repository
-[https://goitacademy.github.io/react-homework-template](https://goitacademy.github.io/react-homework-template).
-
-If a blank page opens, make sure there are no errors in the `Console` tab
-related to incorrect paths to the CSS and JS files of the project (**404**). You
-most likely have the wrong value for the `homepage` property in the
-`package.json` file.

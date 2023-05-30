@@ -1,3 +1,12 @@
+# Посилання на "живу" сторінку та api
+
+1. "Жива" сторінка (деплой)
+   [https://andrey-lawyer.github.io/food-delivery/](https://andrey-lawyer.github.io/food-delivery/)
+2. Api
+   [https://fastfood-orders.onrender.com/api/](https://fastfood-orders.onrender.com/api/)
+3. Файли проекту (backend)
+   [https://github.com/andrey-lawyer/food-delivery-server](https://andrey-lawyer.github.io/food-delivery/)
+
 ## Локальний запуск проекту
 
 1. Переконайтеся, що на комп'ютері встановлена LTS-версія Node.js.
@@ -17,26 +26,9 @@
 `your_username` і `your_repo_name` на Ваші, а також змінити зміни на GitHub.
 
 ```json
-"домашня сторінка": "https://your_username.github.io/your_repo_name/"
+"homepage": "https://your_username.github.io/your_repo_name/"
 ```
 
 Далі необхідно зайти в налаштування GitHub-репозиторія (`Налаштування` >
 `Сторінки`) і вивести роздачу продакшн версії файлів з папки `/root` гілки
 `gh-pages`, якщо це не було зроблено автоматично.
-
-![GitHub Pages settings](./assets/repo-settings.png)
-
-### Статус деплоя
-
-Статус розгорнутого крайнього коміта відображається іконкою з його
-ідентифікатором.
-
-- **Жовтий колір** - виконується збірка і розгортання проекту.
-- **Зелений колір** - розгортання завершено успішно.
-- **Червоний колір** - під час лінтинга, збірки або розгортання виникла помилка.
-
-Більш детальну інформацію про статус можна переглянути, якщо клацнути по іконці, і вікні, що випало, перейти за посиланням `Details`.
-
-![Deployment status](./assets/deploy-status.png)
-
-
